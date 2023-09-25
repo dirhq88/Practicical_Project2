@@ -61,6 +61,25 @@
       line-height: 14px;
     }
 
+    .menuitem {
+    background-color: #f1f1f1;
+    border: 1px solid #d4d4d4;
+    list-style-type: none;
+    padding: 2px;
+    cursor: pointer;
+}
+
+    .menuitem:hover {
+        background-color: #ffffff;
+    }
+
+    .menuitem:first-child {
+      background-color:#04AA6D;
+      color: white;
+      font-weight:bold;
+    }
+
+
   </style>
 </head>
 <body>
@@ -70,13 +89,11 @@
       <p>Use the menu to select different Stylesheets</p>
     </div>
     <div class = "wrapper">
-      <div id = menubar>
-        <ul>
-          <li>Stylesheet 1</li>
-          <li>Stylesheet 2</li>
-          <li>Stylesheet 3</li>
-          <li>Stylesheet 4</li>
-          <li>No Stylesheet</li>
+      <div id = "menubar">
+        <ul id = "menulist">
+          <li class = "menuitem">Stylesheet 1</li>
+          <li class = "menuitem">Stylesheet 2</li>
+          <li class = "menuitem">No Stylesheet</li>
         </ul>
       </div>
       <div id = "main">
@@ -85,8 +102,6 @@
           This is a demonstration of how different stylesheets can change the layout of your HTML page. You can change the layout of this page by selecting different stylesheets in the menu, or by selecting one of the following links:<br>
           <a href="">Stylesheet1</a>,
           <a href="">Stylesheet2</a>,
-          <a href="">Stylesheet3</a>,
-          <a href="">Stylesheet4</a>.
         </p>
         <h2>No Styles</h2>
         <p>
