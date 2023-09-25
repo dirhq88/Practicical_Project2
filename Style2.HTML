@@ -6,67 +6,67 @@
   <title>Document</title>
 
   <style>
-    body {
-      font-family: Arial;
-      background-color: #d14836;
-      line-height: 20px;
-    }
+  body {
+    font-family: Arial;
+    background-color: #d14836;
+    line-height: 20px;
+  }
 
-    .container {
-      min-width: 900px;
-    }
+  .container {
+      xmin-width: 900px;
+  }
 
-    .wrapper {
+  .wrapper {
       position: relative;
       overflow: auto;
-    }
+  }
 
-    #top {
+  #top {
       color: #ffffff;
       padding: 15px;
       font-size: 30px;
       line-height: 26px;    
-    }
+  }
 
-    #top h1 {
+  #top h1 {
       margin:0;
-      line-height: 50px;  
-    }
+      line-height: 50px;
+  }
 
-    #menubar {
+  #menubar {
       width: 190px;
       float: right;
-    }
+  }
 
-    #main {
+  #main {
       padding: 10px;
       background-color: #ffffff;
       font: 80% Verdana;
-    }
+  }
 
-    #main h1, #main h2 {
+  #main h1, #main h2 {
       color: #d14836;
-    }
+  }
 
-    #sidebar {
+  #sidebar {
       background-color: #F6DAD7;
       color: #d14836;
       padding: 10px;
-    }
+  }
 
-    #bottom {
+  #bottom {
       text-align: center;
       padding: 10px;
       font-size: 70%;
       color: #ffffff;
-    }
+  }
 
-    #menulist {
+  #menulist {
       padding:0;
       font: 16px verdana;
-    }
+  }
 
-    .menuitem {
+  .menuitem {
       width: 155px;
       background-color: #d14836;
       border: 1px solid #d14836;
@@ -76,28 +76,28 @@
       margin: 10px;
       padding: 5px;
       text-align: center;
-      cursor: pointer;  
-    }
+      cursor: pointer;
+  }
 
-    .menuitem:nth-child(2) {
-      background-color:white;
-      color: #d14836;
-      font-weight:bold;
-    }
+  .menuitem:nth-child(2) {
+    background-color:white;
+    color: #d14836;
+    font-weight:bold;
+  }
 
-    .menuitem:hover {
+  .menuitem:hover {
       background-color: #ffffff;
       color: #d14836;
-    }
+  }
 
-    a {
+  a {
       color: #d14836;
       text-decoration: none;
-    }
+  }
 
-    a:hover {
+  a:hover {
       text-decoration: underline;
-    } 
+  }
 
 
   </style>
@@ -111,9 +111,9 @@
     <div class = "wrapper">
       <div id = "menubar">
         <ul id = "menulist">
-          <li>Stylesheet 1</li>
-          <li>Stylesheet 2</li>
-          <li>No Stylesheet</li>
+          <li class = "menuitem">Stylesheet 1</li>
+          <li class = "menuitem">Stylesheet 2</li>
+          <li class = "menuitem">No Stylesheet</li>
         </ul>
       </div>
       <div id = "main">
@@ -121,7 +121,7 @@
         <p>
           This is a demonstration of how different stylesheets can change the layout of your HTML page. You can change the layout of this page by selecting different stylesheets in the menu, or by selecting one of the following links:<br>
           <a href="">Stylesheet1</a>,
-          <a href="">Stylesheet2</a>,
+          <a href="">Stylesheet2</a>.
         </p>
         <h2>No Styles</h2>
         <p>
