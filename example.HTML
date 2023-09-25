@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+
+  
+
+  <style>
+
+    .main{
+      padding-top: 200px;
+      margin: 0 auto;
+      display: flex;
+      flex-direction: column;
+      width: 300px;
+    }
+
+    img{
+      padding-left: 110px;
+    }
+
+    #inputPassword, #checkbox{
+      margin-bottom: 30px;
+    }
+
+    #inputPassword, #inputEmail{
+      height: 50px;
+    }
+
+    p{
+      margin-top: 20px;
+      margin-left: 95px;
+    }
+
+    h1{
+      padding-left: 50px;
+      font-weight: lighter;
+    }
+
+    #checkbox{
+      margin-left: 80px;
+    }
+
+    button{
+      background-color: rgb(59, 138, 235);
+      color: white;
+      border-radius: 5px;
+      border: 0;
+      height: 50px;
+      font-size: 1.5rem;
+    }
+  </style>
+</head>
+<body>
+  <form class = "top">
+    <div class = main>
+      <img alt="" width="72" height="72">
+      <h1>Please sign in</h1>
+      <input type = "email" id = "inputEmail" placeholder="Email address" required autofocus>
+      <input type = "password" id = "inputPassword" placeholder="Password" required>
+    <div>
+      <label>
+        <input type="checkbox" id = "checkbox"  value = "remember-me"> Remember me
+      </label>
+    </div>
+    <button type = "summit">Sign in</button>
+    <p> &copy; 2017-2022</p>
+    </div>
+  </form>
+</body>
+</html>
